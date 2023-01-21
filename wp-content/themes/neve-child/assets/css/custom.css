@@ -1,0 +1,65 @@
+@import url("https://use.typekit.net/qae0ozk.css");
+
+
+:root{
+    --primary-color:#000000;    
+    --white-color:#fff;
+}
+
+
+/* .swiper-container{
+    padding:0 12%
+} */
+.swiper-slide{
+    background:var(--primary-color);
+}
+.swiper-slide a{
+    float:left;
+    line-height:0;
+    width:100%;
+}
+.swiper-slide img{
+    width:100%;
+    opacity:0.2;
+}
+.swiper-slide.swiper-slide-active img{
+    opacity: 1;
+}
+
+
+
+.swiper-button-prev{
+    left:80px;
+    color:var(--white-color)
+}
+.swiper-button-next{
+    right:80px;
+    color:var(--white-color)
+
+}
+
+
+.siteHeader.stickyHeader {
+    background: #fff;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.2);
+}
+
+.proSlider .swiper-slide{
+    background:none;
+}
+
+.proSlider .swiper-slide .eael-tm-content {
+    max-width: calc(100% - 40px);   
+    margin: auto;    
+    margin-top: -55px;
+    padding: 25px;
+}
+
+.proSlider .swiper-slide img{
+    opacity: 1;
+}
+
+/* .heroArea .swiper-slide-contents {
+    background: rgba(10, 75, 125, 0.8);
+    padding:70px;
+} */
